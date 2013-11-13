@@ -5,10 +5,10 @@ var pattern = function(file) {
 };
 
 var framework = function(files) {
-  files.unshift(pattern(path.join(__dirname, 'adapter.js')));
-  files.unshift(pattern(path.resolve(require.resolve('chai'), '../chai.js')));
+  //files.unshift(pattern(path.join(__dirname, 'adapter.js')));
+  //files.unshift(pattern(path.resolve(require.resolve('chai'), '../chai.js')));
   files.unshift(pattern(path.resolve(require.resolve('sinon-chai'))));
-  files.unshift(pattern(path.resolve(require.resolve('sinon'), '../sinon.js')));
+  //files.unshift(pattern(path.resolve(require.resolve('sinon'), '../sinon.js')));
 };
 
 framework.$inject = ['config.files'];
