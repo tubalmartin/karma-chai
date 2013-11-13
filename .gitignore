@@ -1,4 +1,3 @@
-/doc
+.*
+!/.gitignore
 /node_modules
-/lib
-.DS_Store
