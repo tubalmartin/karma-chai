@@ -1,26 +1,32 @@
-karma-sinon-chai
+karma-chai-sinon
 ==========
 
-[Sinon-Chai](http://chaijs.com/plugins/sinon-chai) for [Karma](http://karma-runner.github.io)
+[Chai](http://chaijs.com) + [Sinon-Chai](http://chaijs.com/plugins/sinon-chai) + [Sinon](http://sinonjs.org/) for [Karma](http://karma-runner.github.io)
 
 
 Installation
 ------------
 
+Install the plugin from npm:
+
+```sh
+$ npm install karma-chai-sinon --save-dev
+```
+
 Install the plugin from Github:
 
 ```sh
-$ npm install 'git://github.com/tubalmartin/karma-sinon-chai.git#0.1.0' --save-dev
+$ npm install 'git://github.com/tubalmartin/karma-chai-sinon.git' --save-dev
 ```
 
-Add `sinon-chai` to the `frameworks` key in your Karma configuration:
+Add `chai-sinon` to the `frameworks` key in your Karma configuration:
 
 ```js
 module.exports = function(config) {
   config.set({
 
     # frameworks to use
-    frameworks: ['mocha', 'chai', 'sinon-chai', 'sinon']
+    frameworks: ['mocha', 'chai-sinon']
 
     # ...
 ```
