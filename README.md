@@ -3,6 +3,9 @@ karma-chai-sinon
 
 [Chai](http://chaijs.com) + [Sinon-Chai](http://chaijs.com/plugins/sinon-chai) + [Sinon](http://sinonjs.org/) for [Karma](http://karma-runner.github.io)
 
+*What makes this plugin different from `karma-sinon-chai`?*
+* This plugin uses (and will always use) the latest compatible versions of every library. 
+* No `bower` dependency.
 
 Installation
 ------------
