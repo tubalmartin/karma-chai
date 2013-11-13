@@ -1,32 +1,33 @@
 {
-  "name": "karma-chai",
-  "description": "Chai for Karma",
+  "name": "karma-sinon-chai",
+  "description": "Sinon-Chai for Karma",
   "keywords": [
     "karma",
     "karma-plugin",
     "chai",
-    "mocha",
-    "should"
+    "sinon",
+    "sinon-chai",
+    "mocha"
   ],
-  "version": "0.0.1",
-  "author": "Greg Thornton <xdissent@me.com> (http://xdissent.com)",
+  "version": "0.1.0",
+  "author": "Túbal Martín <tubalmartin@gmail.com> (http://tubalmartin.me)",
   "main": "./index.js",
   "license": "MIT",
-  "homepage": "http://xdissent.github.io/karma-chai",
+  "homepage": "https://github.com/tubalmartin/karma-sinon-chai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xdissent/karma-chai.git"
+    "url": "https://github.com/tubalmartin/karma-sinon-chai.git"
   },
   "bugs": {
-    "url": "https://github.com/xdissent/karma-chai/issues"
+    "url": "https://github.com/tubalmartin/karma-sinon-chai/issues"
   },
   "devDependencies": {
     "groc": "~0.4.0"
   },
   "dependencies": {
-    "chai": "~1.8.1"
+    "chai": "1.8.x"
   },
   "peerDependencies": {
-    "karma": ">=0.9"
+    "karma": "0.10.x"
   }
 }
