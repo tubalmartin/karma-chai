@@ -20,7 +20,7 @@ module.exports = function(config) {
   config.set({
 
     # frameworks to use
-    frameworks: ['mocha', 'sinon-chai']
+    frameworks: ['mocha', 'chai', 'sinon-chai', 'sinon']
 
     # ...
 ```
