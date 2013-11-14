@@ -21,12 +21,11 @@
   "bugs": {
     "url": "https://github.com/tubalmartin/karma-chai-sinon/issues"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "karma": "0.10.x",
     "chai": "1.8.x",
     "sinon-chai": "2.4.x",
     "sinon": "1.7.x"
-  },
-  "peerDependencies": {
-    "karma": "0.10.x"
   }
 }
