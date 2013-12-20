@@ -23,7 +23,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "karma": "0.10.x",
+    "karma": "~0.11.9",
     "chai": "1.8.x",
     "sinon-chai": "2.4.x",
     "sinon": "1.7.x"
