@@ -4,12 +4,10 @@ karma-chai-sinon
 [Chai](http://chaijs.com) + [Sinon-Chai](http://chaijs.com/plugins/sinon-chai) + [Sinon](http://sinonjs.org/) for [Karma](http://karma-runner.github.io)
 
 * What makes this plugin different from `karma-sinon-chai`?*
-* It uses (and will always use) the latest compatible versions of every library.
+* It allows you to use either the latest versions of sinon, chai and sinon-chai or the specific versions your project already uses.
+* Enforces the use of stable versions of Node and Karma.
 * It uses `peerDependencies` only.
 * No `bower` dependency.
-
-[![Dependency status](https://david-dm.org/tubalmartin/karma-chai-sinon.png)](https://david-dm.org/tubalmartin/karma-chai-sinon)
-[![devDependency Status](https://david-dm.org/tubalmartin/karma-chai-sinon/dev-status.png)](https://david-dm.org/tubalmartin/karma-chai-sinon#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/karma-chai-sinon.png?downloads=true)](https://npmjs.org/package/karma-chai-sinon)
 
