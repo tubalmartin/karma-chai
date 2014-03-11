@@ -9,7 +9,7 @@
     "sinon-chai",
     "mocha"
   ],
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Túbal Martín <tubalmartin@gmail.com> (http://tubalmartin.me)",
   "main": "./index.js",
   "license": "MIT",
