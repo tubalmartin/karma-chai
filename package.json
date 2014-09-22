@@ -9,7 +9,7 @@
     "sinon-chai",
     "mocha"
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Túbal Martín <tubalmartin@gmail.com> (http://tubalmartin.me)",
   "main": "./index.js",
   "license": "MIT",
@@ -22,12 +22,12 @@
     "url": "https://github.com/tubalmartin/karma-chai-sinon/issues"
   },
   "peerDependencies": {
-    "karma": "~0.6 || ~0.8 || ~0.10 || ~0.12",
+    "karma": ">=0.6",
     "chai": "*",
     "sinon-chai": "*",
     "sinon": "*"
   },
   "engines": {
-   "node": "~0.8 || ~0.10"
+   "node": ">=0.8"
   }
 }

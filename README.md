@@ -5,7 +5,6 @@ karma-chai-sinon
 
 *What makes this plugin different from `karma-sinon-chai`?*
 * It allows you to use either the latest versions of sinon, chai and sinon-chai or the specific versions your project already uses.
-* Enforces the use of stable versions of Node and Karma.
 * It uses `peerDependencies` only.
 * No `bower` dependency.
 
