@@ -32,7 +32,16 @@ module.exports = function(config) {
   config.set({
 
     // frameworks to use
-    frameworks: ['mocha', 'chai-sinon']
+    frameworks: ['mocha', 'chai-sinon'],
+    
+    // optionally set chai options
+    chaiSinon: {
+      chaiOptions: {
+        includeStack: true,
+        showDiff: false,
+        truncateThreshold: 0
+      }
+    }
 
     // ...
 ```
