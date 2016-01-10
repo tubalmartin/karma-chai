@@ -5,9 +5,7 @@ var createPattern = function(path) {
 };
 
 var framework = function(files) {
-  files.unshift(createPattern(__dirname + '/adapter.js'));
   files.unshift(createPattern(path.dirname(require.resolve('sinon-chai')) + '/sinon-chai.js'));
-  files.unshift(createPattern(path.dirname(require.resolve('chai')) + '/chai.js'));
   files.unshift(createPattern(path.dirname(require.resolve('sinon')) + '/../pkg/sinon.js'));
 };
 
