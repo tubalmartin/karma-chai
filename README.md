@@ -1,10 +1,10 @@
 karma-chai-sinon
 ==========
 
-[Chai](http://chaijs.com) + [Sinon-Chai](http://chaijs.com/plugins/sinon-chai) + [Sinon](http://sinonjs.org/) for [Karma](http://karma-runner.github.io)
+[Sinon-Chai](http://chaijs.com/plugins/sinon-chai) + [Sinon](http://sinonjs.org/) for [Karma](http://karma-runner.github.io)
 
 *What makes this plugin different from `karma-sinon-chai`?*
-* It allows you to use either the latest versions of sinon, chai and sinon-chai or the specific versions your project already uses.
+* It allows you to use either the latest versions of sinon and sinon-chai or the specific versions your project already uses.
 * It uses `peerDependencies` only.
 * No `bower` dependency.
 
@@ -16,14 +16,10 @@ Installation
 Install the plugin from npm:
 
 ```sh
-$ npm install karma-chai-sinon --save-dev
+$ npm install karma-chai-sinon karma-chai --save-dev
 ```
 
-Install the plugin from Github:
-
-```sh
-$ npm install 'git://github.com/tubalmartin/karma-chai-sinon.git' --save-dev
-```
+Note that karma-chai is a peer dependency, so it must be installed separately.
 
 Add `chai-sinon` to the `frameworks` key in your Karma configuration:
 
@@ -32,10 +28,12 @@ module.exports = function(config) {
   config.set({
 
     // frameworks to use
-    frameworks: ['mocha', 'chai-sinon']
+    frameworks: ['mocha', 'chai-sinon', 'chai']
 
     // ...
 ```
+
+It should be before `chai`, as Karma loads modules in reverse.
 
 License
 -------
