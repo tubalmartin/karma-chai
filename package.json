@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "karma": ">=0.6",
-    "chai": "*",
+    "karma-chai": "*",
     "sinon-chai": "*",
     "sinon": "*"
   },
